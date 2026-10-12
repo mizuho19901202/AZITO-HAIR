@@ -1,3 +1,4 @@
+//メイン4分割
 const visuals = document.querySelectorAll(
     ".main-1_image"
 );
@@ -42,3 +43,21 @@ items.forEach((item) => {
 });
     
 });
+
+//ヘッダー
+const header = document.querySelector("#site-header");
+
+function toggleHeader() {
+    if(!header)return;
+
+    if(window.scrollY >= window.innerHeight){
+        header.classList.add("header-hidden");
+    } else {
+        header.classList.remove("header-hidden");
+    }
+}
+
+window.addEventListener("scroll",toggleHeader);
+window.addEventListener("resize",toggleHeader);
+
+toggleHeader();
