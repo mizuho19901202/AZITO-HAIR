@@ -11,8 +11,7 @@ html,body{
 
 body{
     overflow-x: hidden;
-    font-family:
-    "Noto Serif JP","Yu Mincho",YuMincho,serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 
@@ -140,11 +139,13 @@ header{
 .concept h2{
     font-size: 30px;
     margin-bottom: 50px;
+    font-family: "Noto Serif JP","Yu Mincho",YuMincho,serif;
 }
 
 .concept p{
     margin-bottom: 60px;
     font-size: 16px;
+    font-family: "Noto Serif JP","Yu Mincho",YuMincho,serif;
 }
 
 .concept h3{
@@ -155,6 +156,7 @@ header{
 
 .concept span{
     color: #A74736;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 .menu{
@@ -258,6 +260,7 @@ header{
     font-size: 14px;
     letter-spacing: 0.08em;
     color: #343434;
+
 }
 
 .btn:hover{
