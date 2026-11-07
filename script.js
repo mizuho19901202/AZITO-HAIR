@@ -9,7 +9,7 @@ const items = document.querySelectorAll(
 
 const photos = [
     "sliderpict-A.jpg",
-    "sliderpict-B.jpg",
+    "sliderpict-B3.jpg",
     "sliderpict-C.jpg",
     "sliderpict-D.jpg"
 ];
